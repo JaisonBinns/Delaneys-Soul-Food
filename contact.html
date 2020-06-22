@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Delaney's Soul Food is soul food restuarant located in Yeadon, PA. Our food is 'Food Cooked With Love' and we serve the finest soul food experience in Delaware County."
+    />
+    <!-- Title of the website -->
+    <title>Delaney's Soul Food | Soul Food Restaurant</title>
+
+    <!--===  FONTS ===-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700|Playfair+Display:400,400i,700,900"
+      rel="stylesheet"
+    />
+    <script
+      data-ad-client="ca-pub-5176263781480451"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+    <!--=== STYLES ===-->
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendors/css/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="resources/css/style.css" />
+  </head>
+
+  <body>
+    <header class="header-black">
+      <!--=== Desktop navigation ===-->
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-10 col-sm-7 col-lg-2">
+            <a href="index.html" class="header__logo">
+              <span class="u-font-serif">Delaney's</span>
+            </a>
+          </div>
+          <div class="col-sm-8 d-none d-lg-block">
+            <ul class="desktop-nav d-lg-flex justify-content-center">
+              <li>
+                <a href="index.html" class="desktop-nav__link active">Home</a>
+              </li>
+              <li><a href="menu.html" class="desktop-nav__link">Menu</a></li>
+              <li><a href="about.html" class="desktop-nav__link">About</a></li>
+              <li>
+                <a href="#" class="desktop-nav__link">Gallery</a>
+              </li>
+              <li>
+                <a href="contact.html" class="desktop-nav__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-1 d-lg-none">
+            <a href="#" class="mobile-nav-trigger d-lg-none js-open-mobile-nav">
+              <ion-icon name="menu" class="icon"></ion-icon>
+            </a>
+          </div>
+          <div class="col-sm-4 col-lg-2 d-none d-sm-block">
+            <a href="tel:(610) 624-9044" class="btn">(610) 624-9044</a>
+          </div>
+        </div>
+      </div>
+      <!--=== Mobile navigation ===-->
+      <ul class="mobile-nav-list js-mobile-nav d-lg-none">
+        <li><a href="index.html" class="mobile-nav-list__link">Home</a></li>
+        <li><a href="menu.html" class="mobile-nav-list__link">Menu</a></li>
+        <li><a href="about.html" class="mobile-nav-list__link">About</a></li>
+        <li>
+          <a href="#" class="mobile-nav-list__link">Gallery</a>
+        </li>
+        <li>
+          <a href="contact.html" class="mobile-nav-list__link">Contact</a>
+        </li>
+        <li>
+          <a href="tel:610-624-9044" class="mobile-nav-list__link"
+            >(610) 624-9044</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <!--=== Hero ===-->
+    <div
+      class="hero hero--v2 u-bg-p-center"
+      style="background-image: url('resources/css/img/hero-min.jpg');"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <h1 class="hero__title u-font-serif">
+              Delaney's Soul Food
+            </h1>
+            <p>
+              Our food is 'Food Cooked With Love'. <br />
+              We serve the finest soul food experience in Delaware County.
+            </p>
+            <a href="menu.html" class="btn">Check Menu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--=== /Hero ===-->
+
+    <!--=== Form ===-->
+    <div class="mt-7 mb-8">
+      <div class="container">
+        <div class="row mb-8">
+          <p>Yo hit us up!</p>
+        </div>
+        <div class="mt-5">
+          <form class="form js-form" method="POST" action="">
+            <div class="form__field">
+              <input
+                type="text"
+                name="fullname"
+                placeholder="Name"
+                required=""
+              />
+            </div>
+            <div class="form__field">
+              <input
+                type="text"
+                name="email"
+                placeholder="Enter Your Email"
+                required=""
+              />
+            </div>
+            <div class="form__field">
+              <select
+                id="find-us"
+                name="find-us"
+                placeholder="How did you find us?"
+                required=""
+              >
+                <option value="ad">Advertisement</option>
+                <option value="friend">Friend</option>
+                <option value="social">Facebook/Instagram</option>
+                <option value="yelp">Yelp</option>
+                <option value="search">Search Engine</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form__field">
+              <textarea
+                name="message"
+                placeholder="Your message"
+                required=""
+              ></textarea>
+            </div>
+            <div class="form__field">
+              <button class="js-submit" type="submit">SEND</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--=== /Form ===-->
+  </body>
+</html>
